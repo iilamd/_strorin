@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style3.css" rel="stylesheet" type="text/css" />
+<title>Perpustakaan</title>
+<script src="jquery.js"></script>
+</head>
+<body><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+        </script>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Bacaan saat ini</a>
+    <a href="#">Arsip</a>
+    <a href="#">Daftar bacaan</a>
+  </div>
+</div>
+
+<h1 style="font-size:30px;cursor:pointer" onclick="openNav()">Perpustakaan</h1>
+     
+</body>
+</html>

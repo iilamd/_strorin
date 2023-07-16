@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Halaman utama</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style1.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+<script language="javascript" type="text/javascript">
+
+</script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/slideitmoo-1.1.js"></script>
+<script language="javascript" type="text/javascript">
+window.addEvents({
+    'domready': function () { 
+        new SlideItMoo({
+            overallContainer: 'SlideItMoo_outer',
+            elementScrolled: 'SlideItMoo_inner',
+            thumbsContainer: 'SlideItMoo_items',
+            itemsVisible: 5,
+            elemsSlide: 3,
+            duration: 200,
+            itemsSelector: '.SlideItMoo_element',
+            itemWidth: 140,
+
+            
+            
+        });
+    }
+
+})
+</script>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+          <li><a href="Halaman utama.html"><span>01</span>Halaman utama</a></li>
+          <li><a href="Telusuri.html"><span>02</span>Telusuri</a></li>
+          <li><a href="perpus1.html"><span>03</span>Pepustakaan</a></li>
+          <li><a href="Tulis.html"><span>04</span>Tulis</a></li>
+          <li><a href="notifikasi.html"><span>05</span>Notifikasi</a></li>
+          
+        </ul>
+      </div>
+<div id="wrapper">
+  <div id="header_bar">
+    <div id="header">
+      <div class="right"></div>
+      <h1><a href="#" style="text-decoration: none;"> <img src="images/stor.in.png" 
+        height="45" width="auto" /> <span>Platform baca dan tulis cerita</span> </a></h1>
+    </div>
+    <div id="search_box">
+      <form action="#" method="get">
+        <input type="text" value="Cari bacaanmu.." name="q" size="10" id="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+        <input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+      </form>
+    </div>
+  </div>
+ 
+  
+  <div id="sidebar">
+    <div class="sidebar_section">
+      <h2>Member</h2>
+      <form action="#" method="get">
+        <label>Username</label>
+        <input type="text" value="" name="username" size="10" class="input_field" />
+        <label>Password</label>
+        <input type="password" value="" name="password" class="input_field" />
+        <input type="submit" name="Register" value="Register" alt="Register" id="submit_btn" />
+        <input type="submit" name="login" value="Login" alt="Login" id="submit_btn" />
+      </form>
+    </div>
+    <div class="sidebar_section">
+      <h2>Kategori</h2>
+      <ul class="categories_list">
+        <li><a href="#"style="text-decoration:none;">Horor</a></li>
+        <li><a href="#"style="text-decoration:none;">Romansa</a></li>
+        <li><a href="#"style="text-decoration:none;">Drama</a></li>
+        <li><a href="#"style="text-decoration:none;">Aksi</a></li>
+        <li><a href="#"style="text-decoration:none;">Persahabatan</a></li>
+        <li><a href="#"style="text-decoration:none;">Animasi</a></li>
+        <li><a href="#"style="text-decoration:none;">Biografi</a></li>
+        <li><a href="#"style="text-decoration:none;">Sejarah</a></li>
+        <li><a href="#"style="text-decoration:none;">Fantasi</a></li>
+        <li><a href="#"style="text-decoration:none;">Religi</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+  <div id="content">
+    <div id="latest_product_gallery">
+      <h2>Teratas minggu ini</h2>
+      <div id="SlideItMoo_outer">
+        <div id="SlideItMoo_inner">
+          <div id="SlideItMoo_items">
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content_section">
+      <h2>Hai Stor.in people</h2>
+      <p>Stor.in adalah sebuah platform daring yang memungkinkan penggunanya untuk membaca dan menulis cerita. Didirikan oleh kelompok banana, platform ini bertujuan untuk membuat komunitas membaca, serta menghapus penghalang antara pembaca dan penulis. </p>
+    </div>
+    <div class="content_section">
+      <h2>Dapatkan pengalaman premium kamu !</h2>
+      <div class="product_box margin_r35">
+        <h3>Azab kubur</h3>
+        <div class="image_wrapper"> <a href="#"><img src="images/landscape(1).jpeg" alt="" /></a> </div>
+        <p class="price">Harga: Rp. 80.000</p>
+        <a href="#">Detail</a> | <a href="#">Beli sekarang</a> </div>
+      <div class="product_box margin_r35">
+        <h3>Tips deketin camer</h3>
+        <div class="image_wrapper"> <a href="#"><img src="images/landscape(1).jpeg" alt="" /></a> </div>
+        <p class="price">Harga: Rp. 71.000</p>
+        <a href="#">Detail</a> | <a href="#">Beli sekarang</a> </div>
+      <div class="product_box">
+        <h3>Cara jadi dosen amikom</h3>
+        <div class="image_wrapper"> <a href="#"><img src="images/landscape(1).jpeg" alt="" /></a> </div>
+        <p class="price">Harga: Rp. 100.000.000</p>
+        <a href="#">Detail</a> | <a href="#">Beli sekarang</a> </div>
+    
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul class="footer_menu">
+      <li><a href="#">Komunitas</a></li> 
+      <li><a href="#">Kelas nulis</a></li>
+      <li><a href="#">Kontak</a></li>
+      <li><a href="#">Galeri</a></li>
+      <li><a href="#">Perusahaan</a></li>
+      <li><a href="#">Event</a></li><br>
+
+    </ul><br>
+    Copyright &copy; 2023 <a href="#">Stor.in</a> | Designed by VS.Code</div>
+ 
+</div>
+
+</body>
+</html>

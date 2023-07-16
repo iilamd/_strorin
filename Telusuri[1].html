@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Telusuri</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+<script language="javascript" type="text/javascript">
+</script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/slideitmoo-1.1.js"></script>
+<script language="javascript" type="text/javascript">
+window.addEvents({
+    'domready': function () { 
+        new SlideItMoo({
+            overallContainer: 'SlideItMoo_outer',
+            elementScrolled: 'SlideItMoo_inner',
+            thumbsContainer: 'SlideItMoo_items',
+            itemsVisible: 5,
+            elemsSlide: 3,
+            duration: 200,
+            itemsSelector: '.SlideItMoo_element',
+            itemWidth: 140,
+            
+        });
+    }
+
+})
+</script>
+</head>
+<body>
+      <div class="container">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Type" value="Telusuri cerita, profil atau daftar bacaan..">
+        <button type="submit" class="searchButton">
+          </button>
+      </div>
+    </div>
+   
+    <div id="wrapper">
+      <br><br><br><br><br>
+  <div id="content">
+    <div id="latest_product_gallery">
+      <h2>Jelajahi tagar</h2>
+      <div id="SlideItMoo_outer">
+        <div id="SlideItMoo_inner">
+          <div id="SlideItMoo_items">
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+            <div class="SlideItMoo_element"> <a href="#"> <img src="images/user1(1).jpeg" alt="" /></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div style="font-size: 14px;  border: 1px dashed #17202A; height: 150px; margin: 70px 0px; padding: 20px ; text-align: left; width: auto;" ><span style="font-weight: bold;">
+Terakhir dibaca</span>
+<ul>
+  <li><a href="#" style="text-decoration:none;">Semangat 45 !</a></li>
+  <li><a href="#" style="text-decoration:none;">Just the way you are</a></li>
+  <li><a href="#" style="text-decoration:none;">Summer time </a></li>
+  <li><a href="#" style="text-decoration:none;">Kiat-kiat sukses</a></li>
+</ul></div>
+
+<div style="font-size: 14px; border: 1px  dashed #17202A; height: 150px; margin: 70px 0px; padding: 20px; text-align:left; width: auto;"><span style="font-weight: bold;">
+Terakhir dilihat</span><ul>
+  <li><a href="#" style="text-decoration:none;">Azab kubur</a></li>
+  <li><a href="#" style="text-decoration:none;">25 resep makanan</a></li>
+</ul></div>
+    
+</body>
+</html>
